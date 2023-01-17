@@ -1,871 +1,1333 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
- <head>
-  <meta content="text/html; charset=utf-8" http-equiv="content-type">
-  <title>
-  </title>
-  <meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
-  <link href="https://fonts.googleapis.com" rel="preconnect" />
-  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
-  <style type="text/css">body {            -webkit-text-size-adjust: none;        }        /* Prevent Webkit platforms from changing default text sizes. */        /* Reset Styles */        body {            margin: 0;            padding: 0;        }        html,        body,        blockquote,        code,        h1,        h2,        h3,        h4,        h5,        h6,        p,        pre {            margin: 0;            padding: 0;        }        button,        fieldset,        form,        input,        legend,        textarea,        select {            margin: 0;            padding: 0;        }        fieldset {            border: 0;        }        p {            margin-bottom: 0;            margin: 0;        }        a,        a * {            cursor: pointer;        }        hr,        img {            border: 0;        }        applet,        iframe,        object {            border: 0;            margin: 0;            padding: 0;        }        button,        input[type="button"],        input[type="image"],        input[type="reset"],        input[type="submit"],        label {            cursor: pointer;        }        strong {            font-weight: bold;        }        em {            font-style: italic;        }        table       #templateContainer .block-cell {            padding: 0;            margin: 0;            border: 0;        }        #templateContainer .block-cell .block-content img {            display: block;        }    <!--    h1 {            font-family: Raleway, "Raleway", Raleway Regular, sans-serif;            font-style: normal;            font-weight: 700;            font-size: 72px;            line-height: 56px !important;            color: rgba(255, 255, 255, 0.9);        }        h2 {            font-family: Raleway, "Raleway", Raleway Regular, sans-serif;            font-style: normal;            font-weight: 700;            font-size: 24px;            line-height: 28px;            color: rgba(255, 255, 255, 0.9);        }    -->    p.big {            font-family: Roboto Regular, sans-serif;            font-style: normal;            font-weight: 400;            font-size: 16px;            line-height: 19px;            color: rgba(255, 255, 255, 0.9);        }        p,        span {            font-family: Roboto Regular, sans-serif;            font-style: normal;            font-weight: 400;            font-size: 14px;            line-height: 16px;            color: rgba(255, 255, 255, 0.9);        }        .small {            font-size: 12px;            line-height: 14px;        }        a {            color: rgba(255, 255, 255, 0.9);        }        strong {            font-weight: 700;        }        .block-cell-divisor {            height: 45px;            border-bottom: solid 1px #ffffff;        }        #unsubscribeLink {            font-family: Roboto Regular, sans-serif;            font-style: normal;            font-weight: 400;            font-size: 12px;            line-height: 14px;            text-align: center;        }        table {            max-width: 600px;        }        .image-row {            display: flex;            flex-wrap: wrap;            padding: 0 4px;            align-content: center;            align-items: center;        }        .image-row .image-col {            flex: calc(21.5% - 20px);            max-width: calc(21.5% - 20px);            padding: 2px 10px;        }        .image-row .image-col-small {            flex: calc(10% - 10px);            max-width: calc(10% - 10px);            padding: 2px 5px;        }        @media only screen and (max-width: 480px) {            body {                /* Avoid unnessary x scrollbar */                width: 99.2% !important;            }            #templateContainer {                width: 100% !important;                padding: 0 20px !important;            }            #templateContainer .block-cell {                display: block;                width: 100% !important;            }            #templateContainer,            #templateContainer .block-table {                width: 100% !important;            }            #templateContainer .block-cell .block-content img {                display: block;                margin: 0 auto;                /* width: 90% !important; */                height: auto !important;                max-width: 90% !important;            }        }
-  </style>
-  <link href="https://psp-production.od2.vtiger.com//layouts/v9/skins/vtiger/custom_ckeditor_fonts.css" id="v9FontStyle" rel="stylesheet" type="text/css" />
- </head>
- <body>
-  <center class="content-start" style="background-color: rgb(0, 0, 0)">
-   <table align="center" border="0" cellpadding="0" cellspacing="0" dir="ltr" id="templateContainer" style="background-color:#000000;max-width:600px;padding-bottom:45px;padding:0 20px;">
-	<tbody class="ui-sortable">
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_162" aria-label="Editor de texto enriquecido, editor1" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell">
-			<table border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content" height="20" style="text-align: center">
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_268" aria-label="Editor de texto enriquecido, editor3" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell" height="" style="width: 75%" width="75%">
-			<table border="0" cellpadding="0" cellspacing=" 0" style="border-spacing: 0; border-collapse: collapse" width="100%">
-			 <tbody>
-			  <tr height="" style="width: 100%" width="100%">
-			   <td class="block-content">
-				<div contenteditable="false" tabindex="-1">
-				 <div data-widget="image" style="text-align: center; float: left">
-				  <a href="http://productionportugal.com/#/" target="_blank">
-				   <img alt="Production Portugal &amp; Spain Logo" height="60" src="https://psp-production.od2.vtiger.com/test/upload/images/cores-brancoAF_PSP_logo-horiz.png" width="174" /> 
-				  </a>
-				 </div>
-				</div>
-			   </td>
-			   <td class="block-cell" height="" style="color: white; width: 25%" width="25%">
-				<p class="small" style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 12px;																		line-height: 14px;																		color: rgba(255, 255, 255, 0.9);																	">
-				 <strong>You Dream. We Do. 
-				 </strong>
-				</p>
-				<p class="small" style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 12px;																		line-height: 14px;																		color: rgba(255, 255, 255, 0.9);																	">Production
-				 <br />
-				 Services
-				</p>
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td height="" style="width: 100%" valign="top" width="100%">
-	   <div aria-describedby="cke_398" aria-label="Editor de texto enriquecido, editor5" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td height="110" valign="top">
-	   <div aria-describedby="cke_448" aria-label="Editor de texto enriquecido, editor6" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-	   </div>
-	   <div aria-describedby="cke_448" aria-label="Editor de texto enriquecido, editor6" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<h1 style="font-family:Raleway Regular, sans-serif;font-style: normal;font-weight:700;font-size: 72px;line-height:56px !important;color:rgba(255,255, 255,0.9);">Technical, clever
-		</h1>
-		<h1 style="font-family:Raleway Regular, sans-serif;font-style: normal;font-weight:700;font-size: 72px;line-height:56px !important;color:rgba(255,255, 255,0.9);">&amp; Pharma
-		</h1>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-label=" image widget" contenteditable="false" role="region" tabindex="-1">
-		<div data-widget="image" style="text-align:center; float:left">
-		 <a href="https://productionportugal.com/#/works?2266" target="_blank">
-		  <img alt="" height="318" src="https://psp-production.od2.vtiger.com/test/upload/images/Capturadeecrã2022-11-18,às17.35.20.png" style="width: 600px; max-width: 600px; height: 318px;" width="600" /> 
-		 </a>
-		 <div style="text-align: center">
-		 </div>
-		</div>
-	   </div>
-	   <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_754" aria-label="Editor de texto enriquecido, editor12" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" height="" style="										border-spacing: 0px;										border-collapse: collapse;										width: 844px;										border: rgb(128, 128, 128);									" width="844">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell">
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_960" aria-label="Editor de texto enriquecido, editor16" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell" valign="middle" width="100%">
-			<table border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" style="border-collapse:collapse;" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content" style="padding-top: 25px; padding-bottom: 15px" valign="top">
-				<h2 style="																		font-family: Raleway, 'Raleway',																			Raleway Regular, sans-serif;																		font-style: normal;																		font-weight: 700;																		font-size: 24px;																		line-height: 28px;																		color: rgba(255, 255, 255, 0.9);																	">Dupixent TVC:
-				</h2>
-				<h2 style="																		font-family: Raleway, 'Raleway',																			Raleway Regular, sans-serif;																		font-style: normal;																		font-weight: 700;																		font-size: 24px;																		line-height: 28px;																		color: rgba(255, 255, 255, 0.9);																	">A visually stylized approach
-				</h2>
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_854" aria-label="Editor de texto enriquecido, editor14" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="75%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell" valign="middle">
-			<p class="big" style="														font-family: Roboto Regular, sans-serif;														font-style: normal;														font-weight: 400;														font-size: 16px;														line-height: 19px;														color: rgba(255, 255, 255, 0.9);													">This TVC for Dupixent, a medication targeting resistant asthma, is about a point a view. Thanks to every trick of the trade (rig to talent, helmet, cams, lens, jibs),&nbsp; the viewer experiences visually the freedom that comes from the medication: a full spectrum of physical activities! And the resulting visuals are striking.
-			 <br />
-			 <br />
-			 <strong>Dupixent TVC specs:
-			 </strong>
-			 <br />
-			 <br />
-			 <strong>Client/Product:
-			 </strong> Dupixent&nbsp;
-			 <br />
-			 <strong>Production House: 
-			 </strong>Splendors
-			 <br />
-			 <strong>Production Services:
-			 </strong> PSP - Production Services Portugal
-			 <br />
-			 <strong>Agency:
-			 </strong> Arnold
-			 <br />
-			 Director: James Lawes
-			 <br />
-			 DOP: Tim Fok
-			 <br />
-			 <br />
-			 <strong>Shoot:
-			 </strong> 3 videos of 15 sec to 1 min, 8 days shoot around Lisbon
-			 <br />
-			 <br />
-			 <strong>Special challenge:
-			 </strong>
-			 <br />
-			 <br />
-			 <strong>47 roles in this cast: 
-			 </strong>adults, children, every ethnicity.
-			 <br />
-			 Locations around Lisbon: Waterslide, water diving, pickle ball, playground, monkey bars, soccer field, supermarket, ext.house, docks, park, outdoor trail, bedroom.
-			</p>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell-divisor">
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell">
-			<table border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content" height="30">
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_960" aria-label="Editor de texto enriquecido, editor16" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell" valign="middle" width="100%">
-			<table border="0" cellpadding="0" cellspacing="0" style="font-size: 12px" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content" style="padding-bottom: 22px" valign="top">
-				<h2 style="																		font-family: Raleway, 'Raleway',																			Raleway Regular, sans-serif;																		font-style: normal;																		font-weight: 700;																		font-size: 24px;																		line-height: 28px;																		color: rgba(255, 255, 255, 0.9);																	">Making snow...in the middle of summer!&nbsp; &nbsp; &nbsp;
-				 <br />
-				 Centrum TVC
-				</h2>
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_1015" aria-label="Editor de texto enriquecido, editor17" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse;" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell">
-			<table border="0" cellpadding="0" cellspacing=" 0" style="border-spacing: 0; border-collapse: collapse" width="100%">
-			 <tbody>
-			  <tr height="" style="width: 100%" width="100%">
-			   <td class="block-content">
-				<div>
-				 <a href="https://productionportugal.com/#/works?2260">
-				  <img alt="" height="318" src="https://psp-production.od2.vtiger.com/test/upload/images/Capturadeecrã2022-11-18,às17.44.46.png" style="																				width: 600px;																				max-width: 600px;																				height: 318px;																			" width="600" /> 
-				 </a>
-				</div>
-				<div style="text-align: justify">
-				</div>
-				<div>
-				</div>
-				<div style="text-align: justify">
-				 <span aria-label="image widget" class="image-column" contenteditable="false" role="region" tabindex="-1">
-				  <span title="Click and drag to resize">​ 
-				  </span> 
-				 </span>
-				</div>
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_960" aria-label="Editor de texto enriquecido, editor16" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell" style="padding-right: 15px; padding-top: 22px" valign="top" width="50%">
-			<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content" valign="top">
-				<p font-size:="" font-style:="" font-weight:="" line-height:="" normal="" regular="" roboto="" sans-serif="" style="font-family: ">
-				 <span style="color: rgba(255, 255, 255, 0.9);">Centrum&acute;s campaign promotes their product as something for everybody, including a 50+ adults version. Thanks to the TVCs&acute; informal and upbeat mood, everyone can identify with its jingle: You did it! You did it!
-				  <br />
-				  <br />
-				  We did it together: a high energy shoot with a wonderful talent pool of women (director, DP, production designer, and...us!)
-				  <br />
-				  <br />
-				  We did it on the road: We put together a very diverse cast, and shot in upbeat locations: playground, city park, gym, pool, and beach, interiors.
-				 </span>
-				</p>
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		   <td class="block-cell" style="padding-right: 15px; padding-top: 22px" valign="top" width="50%">
-			<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content" valign="top">
-				<p style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
-				 <strong>We faked it:
-				 </strong> snow in middle of summer!
-				 <br />
-				 <br />
-				 <strong>We did it in fives:
-				 </strong> 5 videos (between 5 and 15 seconds) in 5 days.
-				 <br />
-				 <br />
-				 <strong>CentrumOne specs:
-				 </strong>
-				 <br />
-				 <br />
-				 <strong>Client/Product:
-				 </strong> Centrum
-				 <br />
-				 <br />
-				 <strong>Agency:
-				 </strong> FCB
-				 <br />
-				 <strong>Director:
-				 </strong> Kinopravda
-				 <br />
-				 <strong>DOP:
-				 </strong> Bet Rourich
-				 <br />
-				 <br />
-				 <br />
-				 &nbsp;
-				</p>
-				<div style="border-bottom:solid black 1.0pt; padding:0cm 0cm 1.0pt 0cm">
-				</div>
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell-divisor">
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell">
-			<table border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content" height="45">
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_1120" aria-label="Editor de texto enriquecido, editor19" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell">
-			<table border="0" cellpadding="0" cellspacing=" 0" style="border-spacing: 0; border-collapse: collapse" width="100%">
-			 <tbody>
-			  <tr height="" style="width: 100%" width="100%">
-			   <td class="block-content" style="text-align: center">
-				<h2 style="																		font-family: Raleway, 'Raleway',																			Raleway Regular, sans-serif;																		font-style: normal;																		font-weight: 700;																		font-size: 24px;																		line-height: 28px;																		color: rgba(255, 255, 255, 0.9);																	">
-				 <a href="mailto:patricia@productionportugal.com?subject=More info">Ask More
-				 </a>
-				</h2>
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_960" aria-label="Editor de texto enriquecido, editor16" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell" style="padding-right: 15px; padding-top: 45px" valign="top" width="50%">
-			<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content" valign="top">
-				<p style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																		text-align: left;																	">
-				 <a href="mailto:info@productionportugal.com?subject=More info">info@productionportugal.com
-				 </a>
-				</p>
-			   </td>
-			  </tr>
-			  <tr>
-			   <td class="block-content" style="padding-top: 15px" valign="top">
-				<p style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																		text-align: left;																	">+351 21 861 06 60
-				</p>
-				<p style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																		text-align: left;																	">+351 91 661 80 20
-				</p>
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		   <td class="block-cell" style="padding-right: 15px; padding-top: 45px" valign="middle" width="50%">
-			<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			 <tbody>
-			  <tr>
-			   <td>
-				<p style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
-				 <a href="https://productionportugal.com/">productionportugal.com
-				 </a>
-				</p>
-			   </td>
-			  </tr>
-			  <tr>
-			   <td class="block-cell" height="" style="																	width: 100%;																	vertical-align: middle;																	text-align: center;																" width="100%">
-				<table height="" style="																		width: 100%;																		border-spacing: 0;																		border-collapse: collapse;																	" width="100%">
-				 <tbody>
-				  <tr>
-				   <td align="center" class="block-content" style="																					padding-top: 20px;																					padding-bottom: 20px;																				" valign="top">
-					<table height="" style="																						width: 100%;																						border-spacing: 0;																						border-collapse: collapse;																					" width="100%">
-					 <tbody>
-					  <tr>
-					   <td style="																									padding: 2px 10px;																									text-align: center;																								">
-						<div contenteditable="false" tabindex="-1">
-						 <div data-widget="image" style="text-align: center">
-						  <a href="https://www.facebook.com/productionportugal/" target="_blank">
-						   <img alt="Facebook" height="24" src="https://psp-production.od2.vtiger.com/test/upload/images/facebook-icon-18-256(1).png" style="																													max-width: 37px;																													display: block;																													width: 24px;																													height: 24px;																												" width="24" /> 
-						  </a>
-						  <div style="text-align: center">
-						  </div>
-						 </div>
-						</div>
-					   </td>
-					   <td style="																									padding: 2px 10px;																									text-align: center;																								">
-						<div contenteditable="false" tabindex="-1">
-						 <div data-widget="image" style="text-align: center">
-						  <a href="https://www.instagram.com/productionportugal/" target="_blank">
-						   <img alt="Instagram" height="28" src="https://psp-production.od2.vtiger.com/test/upload/images/insta-icon-white-instagram-logo-white-black-background(1).png" style="																													max-width: 37px;																													display: block;																													width: 28px;																													height: 28px;																												" width="28" /> 
-						  </a>
-						  <div style="text-align: center">
-						  </div>
-						 </div>
-						</div>
-					   </td>
-					   <td style="																									padding: 2px 10px;																									text-align: center;																								">
-						<div contenteditable="false" tabindex="-1">
-						 <div data-widget="image" style="text-align: center">
-						  <a href="https://www.linkedin.com/company/production-portugal" target="_blank">
-						   <img alt="LinkedIn" height="28" src="https://psp-production.od2.vtiger.com/test/upload/images/linkedin-transparent-tiny-linkedin-icon-white-png.png" style="																													max-width: 37px;																													display: block;																													width: 28px;																													height: 28px;																												" width="28" /> 
-						  </a>
-						  <div style="text-align: center">
-						  </div>
-						 </div>
-						</div>
-					   </td>
-					   <td style="																									padding: 2px 10px;																									text-align: center;																								">
-						<div contenteditable="false" tabindex="-1">
-						 <div data-widget="image" style="text-align: center">
-						  <a href="https://vimeo.com/pspproductionportugal" target="_blank">
-						   <img alt="Vimeo" height="26" src="https://psp-production.od2.vtiger.com/test/upload/images/vimeo-transparent.png" style="																													max-width: 37px;																													display: block;																													width: 26px;																													height: 26px;																												" width="26" /> 
-						  </a>
-						  <div style="text-align: center">
-						  </div>
-						 </div>
-						</div>
-					   </td>
-					   <td style="																									padding: 2px 10px;																									text-align: center;																								">
-						<div contenteditable="false" tabindex="-1">
-						 <div data-widget="image" style="text-align: center">
-						  <a href="https://twitter.com/ProdPortugal" target="_blank">
-						   <img alt="Twitter" height="26" src="https://psp-production.od2.vtiger.com/test/upload/images/twitter logo white.png" style="																													max-width: 37px;																													display: block;																													width: 26px;																													height: 26px;																												" width="26" /> 
-						  </a>
-						  <div style="text-align: center">
-						  </div>
-						 </div>
-						</div>
-					   </td>
-					  </tr>
-					 </tbody>
-					</table>
-				   </td>
-				  </tr>
-				 </tbody>
-				</table>
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell-divisor">
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell">
-			<table border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content" height="30">
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_960" aria-label="Editor de texto enriquecido, editor16" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell" style="padding-right: 15px; padding-top: 30px" valign="top" width="50%">
-			<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content" valign="top">
-				<p style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
-				 <strong>Portugal 
-				 </strong>
-				</p>
-				<p style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">Rua Pereira Henriques
-				</p>
-				<p style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">N 1 - Armaz&eacute;m 9
-				</p>
-				<p style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">1950-242 Lisboa, Portugal
-				</p>
-			   </td>
-			  </tr>
-			  <tr>
-			   <td class="block-content" style="padding-top: 53px" valign="top">
-				<p>
-				 <span>
-				  <a href="mailto:info@productionportugal.com?subject=More info" style="                    font-family: Roboto Regular, sans-serif;                    font-style: normal;                    font-weight: 400;                    font-size: 14px;                    line-height: 16px;                    color: rgba(255, 255, 255, 0.9);                   ">info@productionportugal.com
-				  </a> 
-				 </span>
-				</p>
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		   <td class="block-cell" style="padding-right: 15px; padding-top: 30px" valign="middle" width="50%">
-			<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content" valign="top">
-				<p style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
-				 <strong>Spain 
-				 </strong>
-				</p>
-				<p style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">Calle de Goya 36
-				</p>
-				<p style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">M 28001 Madrid, Spain
-				</p>
-			   </td>
-			  </tr>
-			  <tr>
-			   <td class="block-content" style="padding-top: 15px" valign="top">
-				<p>Passeio de Gracia 17
-				</p>
-				<p style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">08007 Barcelona, Spain
-				</p>
-			   </td>
-			  </tr>
-			  <tr>
-			   <td class="block-content" style="padding-top: 22px" valign="top">
-				<p>
-				 <span>
-				  <a href="mailto:info@productionportugal.com?subject=More info" style="                    font-family: Roboto Regular, sans-serif;                    font-style: normal;                    font-weight: 400;                    font-size: 14px;                    line-height: 16px;                    color: rgba(255, 255, 255, 0.9);                   ">info@productionspain.com
-				  </a> 
-				 </span>
-				</p>
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell-divisor">
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell">
-			<table border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content" height="45">
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td style="vertical-align: middle; text-align: center;" valign="middle">
-	   <div aria-describedby="cke_1405" aria-label="Editor de texto enriquecido, editor24" class="ckedit" role="textbox" spellcheck="true" style="text-align: center; margin: 0 auto;" tabindex="0">
-		<table class="block-table" height="" style="										display: inline-block;										border-spacing: 0;										border-collapse: collapse;										text-align: center;										margin: 0 auto;                                        width:100%;									" width="100%">
-		 <tbody style="text-align: center;width: 100%;display:block;">
-		  <tr height="" style="text-align: center;width: 100%;display:block;" width="100%">
-		   <td class="block-cell" style="													width: 100%;													text-align: center;													display:block;												" width="100%">
-			<div class="image-row">
-			</div>
-			<table height="" style="														width: 100%;														border-spacing: 0;														border-collapse: collapse;														text-align: center;														margin: 0 auto;													" width="100%">
-			 <tbody>
-			  <tr class="block-content" style="padding: 20px 0;  text-align: center;" valign="middle">
-			   <th>
-				<div aria-label="image widget" class="image-col" contenteditable="false" role="region" tabindex="-1">
-				 <div data-widget="image" style="text-align: center">
-				  <a href="http://appfp.pt/associados" target="_blank">
-				   <img alt="" data-file-id="4935253" src="https://psp-production.od2.vtiger.com/test/upload/images/AFFP logo.png" style="																									border: 0px none;																									margin: 0px;																									outline: currentcolor none																										medium;																									text-decoration: none;																									max-width: 112px;																									max-height: 35px;                                                                                                    width:100%;" width="100%" /> 
-				  </a>
-				 </div>
-				</div>
-			   </th>
-			   <th>
-				<div aria-label="image widget" class="image-col-small" contenteditable="false" role="region" tabindex="-1">
-				 <div data-widget="image" style="text-align: center">
-				  <a href="https://account.adobe.com/?lang=pt" target="_blank">
-				   <img alt="" data-file-id="4356297" src="https://psp-production.od2.vtiger.com/test/upload/images/unnamed(2).jpg" style="																									margin: 0px;																									outline: currentcolor none																										medium;																									text-decoration: none;																									max-width: 50px;																									max-height: 50px;                                                                                                    width:100%;																								" width="100%" /> 
-				  </a>
-				 </div>
-				</div>
-			   </th>
-			   <th>
-				<div aria-label="image widget" class="image-col" contenteditable="false" role="region" tabindex="-1">
-				 <div data-widget="image" style="text-align: center">
-				  <a href="https://ownedbywomen.tv/" target="_blank">
-				   <img alt="" data-file-id="4935269" src="https://psp-production.od2.vtiger.com/test/upload/images/owned_logo.jpg" style="																									border: 0px none;																									margin: 0px;																									outline: currentcolor none																										medium;																									text-decoration: none;																									max-width: 114px;																									max-height: 35px;                                                                                                    width:100%;																								" width="100%" /> 
-				  </a>
-				 </div>
-				</div>
-			   </th>
-			   <th>
-				<div aria-label="image widget" class="image-col" contenteditable="false" role="region" tabindex="-1">
-				 <div data-widget="image" style="text-align: center">
-				  <a href="https://www.apa-agency.com/" target="_blank">
-				   <img alt="" data-file-id="4219637" src="https://psp-production.od2.vtiger.com/test/upload/images/unnamed-1.jpg" style="																									margin: 0px;																									outline: currentcolor none																										medium;																									text-decoration: none;																									max-width: 121px;																									max-height: 28px;                                                                                                    width:100%;																								" width="100%" /> 
-				  </a>
-				 </div>
-				</div>
-			   </th>
-			   <th>
-				<div aria-label="image widget" class="image-col" contenteditable="false" role="region" tabindex="-1">
-				 <div data-widget="image" style="text-align: center">
-				  <a href="https://www.aicp.com/" target="_blank">
-				   <img alt="" data-file-id="4356237" src="https://psp-production.od2.vtiger.com/test/upload/images/unnamed-2.jpg" style="																									margin: 0px;																									outline: currentcolor none																										medium;																									text-decoration: none;																									max-width: 100px;																									max-height: 28px;                                                                                                    width:100%;																								" width="100%" /> 
-				  </a>
-				 </div>
-				</div>
-			   </th>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell-divisor">
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell">
-			<table border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content" height="30">
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell">
-			<table border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content">
-				<p class="big" style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 16px;																		line-height: 19px;																		color: rgba(255, 255, 255, 0.9);																		text-align: center;																	">PSP Production
-				</p>
-				<p class="big" style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 16px;																		line-height: 19px;																		color: rgba(255, 255, 255, 0.9);																		text-align: center;																	">Portugal &amp; Spain
-				</p>
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	 <tr class="srt-block">
-	  <td valign="top">
-	   <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit" role="textbox" spellcheck="true" tabindex="0">
-		<table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse" width="100%">
-		 <tbody>
-		  <tr>
-		   <td class="block-cell" style="padding: 22px 0">
-			<table border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse" width="100%">
-			 <tbody>
-			  <tr>
-			   <td class="block-content">
-				<p class="small" style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 12px;																		line-height: 14px;																		text-align: center;																		color: rgba(255, 255, 255, 0.9);																	">Don&rsquo;t want to receive these e-mails?
-				</p>
-				<p class="small" id="unsubscribeLink" style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 12px;																		line-height: 14px;																		text-align: center;																		color: rgba(255, 255, 255, 0.9);																	">You can 
-				 <a href="http://unsubscribe/">unsubsribe here
-				 </a>.
-				</p>
-			   </td>
-			  </tr>
-			 </tbody>
-			</table>
-		   </td>
-		  </tr>
-		 </tbody>
-		</table>
-	   </div>
-	  </td>
-	 </tr>
-	</tbody>
-   </table>
-  </center>
- </body>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>
+    </title>
+    <meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&amp;family=Roboto:wght@400;700&amp;display=swap"
+        rel="stylesheet" />
+    <style type="text/css">
+        body {
+            -webkit-text-size-adjust: none;
+        }
+
+        /* Prevent Webkit platforms from changing default text sizes. */
+        /* Reset Styles */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body,
+        blockquote,
+        code,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        pre {
+            margin: 0;
+            padding: 0;
+        }
+
+        button,
+        fieldset,
+        form,
+        input,
+        legend,
+        textarea,
+        select {
+            margin: 0;
+            padding: 0;
+        }
+
+        fieldset {
+            border: 0;
+        }
+
+        p {
+            margin-bottom: 0;
+            margin: 0;
+        }
+
+        a,
+        a * {
+            cursor: pointer;
+        }
+
+        hr,
+        img {
+            border: 0;
+        }
+
+        applet,
+        iframe,
+        object {
+            border: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        button,
+        input[type="button"],
+        input[type="image"],
+        input[type="reset"],
+        input[type="submit"],
+        label {
+            cursor: pointer;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        em {
+            font-style: italic;
+        }
+
+        table #templateContainer .block-cell {
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+
+        #templateContainer .block-cell .block-content img {
+            display: block;
+        }
+
+        < !-- h1 {
+            font-family: Raleway, "Raleway", Raleway Regular, sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 72px;
+            line-height: 56px !important;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        h2 {
+            font-family: Raleway, "Raleway", Raleway Regular, sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        -->p.big {
+            font-family: Roboto Regular, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        p,
+        span {
+            font-family: Roboto Regular, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .small {
+            font-size: 12px;
+            line-height: 14px;
+        }
+
+        a {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        strong {
+            font-weight: 700;
+        }
+
+        .block-cell-divisor {
+            height: 45px;
+            border-bottom: solid 1px #ffffff;
+        }
+
+        #unsubscribeLink {
+            font-family: Roboto Regular, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+        }
+
+        table {
+            max-width: 600px!important;
+        }
+
+        .image-row {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+            align-content: center;
+            align-items: center;
+        }
+
+        .image-row .image-col {
+            flex: calc(21.5% - 20px);
+            max-width: calc(21.5% - 20px);
+            padding: 2px 10px;
+        }
+
+        .image-row .image-col-small {
+            flex: calc(10% - 10px);
+            max-width: calc(10% - 10px);
+            padding: 2px 5px;
+        }
+
+        @media only screen and (max-width: 480px) {
+            body {
+                /* Avoid unnessary x scrollbar */
+                width: 99.2% !important;
+            }
+
+            #templateContainer {
+                width: 100% !important;
+                padding: 0 20px !important;
+            }
+
+            #templateContainer .block-cell {
+                display: block;
+                width: 100% !important;
+            }
+
+            #templateContainer,
+            #templateContainer .block-table {
+                width: 100% !important;
+            }
+
+            #templateContainer .block-cell .block-content img {
+                display: block;
+                margin: 0 auto;
+                /* width: 90% !important; */
+                height: auto !important;
+                max-width: 90% !important;
+            }
+        }
+    </style>
+    <link href="https://psp-production.od2.vtiger.com//layouts/v9/skins/vtiger/custom_ckeditor_fonts.css"
+        id="v9FontStyle" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <center class="content-start" style="background-color: rgb(0, 0, 0)">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" dir="ltr" id="templateContainer"
+            style="background-color:#000000;max-width:600px;padding-bottom:45px;padding:0 20px;">
+            <tbody class="ui-sortable">
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_162" aria-label="Editor de texto enriquecido, editor1" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                style="border-spacing: 0; border-collapse: collapse" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content" height="20"
+                                                            style="text-align: center">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_268" aria-label="Editor de texto enriquecido, editor3" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell" height="" style="width: 75%" width="75%">
+                                            <table border="0" cellpadding="0" cellspacing=" 0"
+                                                style="border-spacing: 0; border-collapse: collapse" width="100%">
+                                                <tbody>
+                                                    <tr height="" style="width: 100%" width="100%">
+                                                        <td class="block-content">
+                                                            <div contenteditable="false" tabindex="-1">
+                                                                <div data-widget="image"
+                                                                    style="text-align: center; float: left">
+                                                                    <a href="http://productionportugal.com/#/"
+                                                                        target="_blank">
+                                                                        <img alt="Production Portugal &amp; Spain Logo"
+                                                                            height="60"
+                                                                            src="https://psp-production.od2.vtiger.com/test/upload/images/cores-brancoAF_PSP_logo-horiz.png"
+                                                                            width="174" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="block-cell" height=""
+                                                            style="color: white; width: 25%" width="25%">
+                                                            <p class="small"
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 12px;																		line-height: 14px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                <strong>You Dream. We Do.
+                                                                </strong>
+                                                            </p>
+                                                            <p class="small"
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 12px;																		line-height: 14px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                Production
+                                                                <br />
+                                                                Services
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td height="" style="width: 100%" valign="top" width="100%">
+                        <div aria-describedby="cke_398" aria-label="Editor de texto enriquecido, editor5" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td height="110" valign="top">
+                        <div aria-describedby="cke_448" aria-label="Editor de texto enriquecido, editor6" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                        </div>
+                        <div aria-describedby="cke_448" aria-label="Editor de texto enriquecido, editor6" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <h1
+                                style="font-family:Raleway Regular, sans-serif;font-style: normal;font-weight:700;font-size: 72px;line-height:56px !important;color:rgba(255,255, 255,0.9);">
+                                Technical, clever
+                            </h1>
+                            <h1
+                                style="font-family:Raleway Regular, sans-serif;font-style: normal;font-weight:700;font-size: 72px;line-height:56px !important;color:rgba(255,255, 255,0.9);">
+                                &amp;&nbsp; Pharma
+                            </h1>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-label=" image widget" contenteditable="false" role="region" tabindex="-1">
+                            <div data-widget="image" style="text-align:center; float:left">
+                                <a href="https://productionportugal.com/#/works?2266" target="_blank">
+                                    <img alt="" height="318"
+                                        src="https://psp-production.od2.vtiger.com/test/upload/images/Capturadeecrã2022-11-18,às17.35.20.png"
+                                        style="width: 600px; max-width: 600px; height: 318px;" width="600" />
+                                </a>
+                                <div style="text-align: center">
+                                </div>
+                            </div>
+                        </div>
+                        <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_754" aria-label="Editor de texto enriquecido, editor12"
+                            class="ckedit" role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" height=""
+                                style="										border-spacing: 0px;										border-collapse: collapse;										width: 844px;										border: rgb(128, 128, 128);									"
+                                width="844">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_960" aria-label="Editor de texto enriquecido, editor16"
+                            class="ckedit" role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell" valign="middle" width="100%">
+                                            <table width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content"
+                                                            style="padding-top: 25px; padding-bottom: 15px"
+                                                            valign="top">
+                                                            <h2
+                                                                style="																		font-family: Raleway, 'Raleway',																			Raleway Regular, sans-serif;																		font-style: normal;																		font-weight: 700;																		font-size: 24px;																		line-height: 28px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                Dupixent TVC:
+                                                            </h2>
+                                                            <h2
+                                                                style="																		font-family: Raleway, 'Raleway',																			Raleway Regular, sans-serif;																		font-style: normal;																		font-weight: 700;																		font-size: 24px;																		line-height: 28px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                A visually stylized approach
+                                                            </h2>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_854" aria-label="Editor de texto enriquecido, editor14"
+                            class="ckedit" role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="75%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell" valign="middle">
+                                            <p class="big"
+                                                style="														font-family: Roboto Regular, sans-serif;														font-style: normal;														font-weight: 400;														font-size: 16px;														line-height: 19px;														color: rgba(255, 255, 255, 0.9);													">
+                                                This TVC for Dupixent, a medication targeting resistant asthma, is about
+                                                a point a view. Thanks to every trick of the trade (rig to talent,
+                                                helmet, cams, lens, jibs),&nbsp; the viewer experiences visually the
+                                                freedom that comes from the medication: a full spectrum of physical
+                                                activities! And the resulting visuals are striking.
+                                                <br />
+                                                <br />
+                                                <strong>Dupixent TVC specs:
+                                                </strong>
+                                                <br />
+                                                <br />
+                                                <strong>Client/Product:
+                                                </strong> Dupixent&nbsp;
+                                                <br />
+                                                <strong>Production House:
+                                                </strong>Splendors
+                                                <br />
+                                                <strong>Production Services:
+                                                </strong> PSP - Production Services Portugal
+                                                <br />
+                                                <strong>Agency:
+                                                </strong> Arnold
+                                                <br />
+                                                Director: James Lawes
+                                                <br />
+                                                DOP: Tim Fok
+                                                <br />
+                                                <br />
+                                                <strong>Shoot:
+                                                </strong> 3 videos of 15 sec to 1 min, 8 days shoot around Lisbon
+                                                <br />
+                                                <br />
+                                                <strong>Special challenge:
+                                                </strong>
+                                                <br />
+                                                <br />
+                                                <strong>47 roles in this cast:
+                                                </strong>adults, children, every ethnicity.
+                                                <br />
+                                                Locations around Lisbon: Waterslide, water diving, pickle ball,
+                                                playground, monkey bars, soccer field, supermarket, ext.house, docks,
+                                                park, outdoor trail, bedroom.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell-divisor">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                style="border-spacing: 0; border-collapse: collapse" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content" height="30">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_960" aria-label="Editor de texto enriquecido, editor16"
+                            class="ckedit" role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell" valign="middle" width="100%">
+                                            <table border="0" cellpadding="0" cellspacing="0" style="font-size: 12px"
+                                                width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content" style="padding-bottom: 22px"
+                                                            valign="top">
+                                                            <h2
+                                                                style="																		font-family: Raleway, 'Raleway',																			Raleway Regular, sans-serif;																		font-style: normal;																		font-weight: 700;																		font-size: 24px;																		line-height: 28px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                Making snow...in the middle of summer!&nbsp; &nbsp;
+                                                                &nbsp;
+                                                                <br />
+                                                                Centrum TVC
+                                                            </h2>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_1015" aria-label="Editor de texto enriquecido, editor17"
+                            class="ckedit" role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse;"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell">
+                                            <table border="0" cellpadding="0" cellspacing=" 0"
+                                                style="border-spacing: 0; border-collapse: collapse" width="100%">
+                                                <tbody>
+                                                    <tr height="" style="width: 100%" width="100%">
+                                                        <td class="block-content">
+                                                            <div>
+                                                                <a href="https://productionportugal.com/#/works?2260">
+                                                                    <img alt="" height="318"
+                                                                        src="https://psp-production.od2.vtiger.com/test/upload/images/Capturadeecrã2022-11-18,às17.44.46.png"
+                                                                        style="																				width: 600px;																				max-width: 600px;																				height: 318px;																			"
+                                                                        width="600" />
+                                                                </a>
+                                                            </div>
+                                                            <div style="text-align: justify">
+                                                            </div>
+                                                            <div>
+                                                            </div>
+                                                            <div style="text-align: justify">
+                                                                <span aria-label="image widget" class="image-column"
+                                                                    contenteditable="false" role="region" tabindex="-1">
+                                                                    <span title="Click and drag to resize">​
+                                                                    </span>
+                                                                </span>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_960" aria-label="Editor de texto enriquecido, editor16"
+                            class="ckedit" role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell" style="padding-right: 15px; padding-top: 22px"
+                                            valign="top" width="50%">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content" valign="top">
+                                                            <p font-size:="" font-style:="" font-weight:=""
+                                                                line-height:="" normal="" regular="" roboto=""
+                                                                sans-serif="" style="font-family: ">
+                                                                <span
+                                                                    style="color: rgba(255, 255, 255, 0.9);">Centrum&acute;s
+                                                                    campaign promotes their product as something for
+                                                                    everybody, including a 50+ adults version. Thanks to
+                                                                    the TVCs&acute; informal and upbeat mood, everyone
+                                                                    can identify with its jingle: You did it! You did
+                                                                    it!
+                                                                    <br />
+                                                                    <br />
+                                                                    We did it together: a high energy shoot with a
+                                                                    wonderful talent pool of women (director, DP,
+                                                                    production designer, and...us!)
+                                                                    <br />
+                                                                    <br />
+                                                                    We did it on the road: We put together a very
+                                                                    diverse cast, and shot in upbeat locations:
+                                                                    playground, city park, gym, pool, and beach,
+                                                                    interiors.
+                                                                </span>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                        <td class="block-cell" style="padding-right: 15px; padding-top: 22px"
+                                            valign="top" width="50%">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content" valign="top">
+                                                            <p
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                <strong>We faked it:
+                                                                </strong> snow in middle of summer!
+                                                                <br />
+                                                                <br />
+                                                                <strong>We did it in fives:
+                                                                </strong> 5 videos (between 5 and 15 seconds) in 5 days.
+                                                                <br />
+                                                                <br />
+                                                                <strong>CentrumOne specs:
+                                                                </strong>
+                                                                <br />
+                                                                <br />
+                                                                <strong>Client/Product:
+                                                                </strong> Centrum
+                                                                <br />
+                                                                <br />
+                                                                <strong>Agency:
+                                                                </strong> FCB
+                                                                <br />
+                                                                <strong>Director:
+                                                                </strong> Kinopravda
+                                                                <br />
+                                                                <strong>DOP:
+                                                                </strong> Bet Rourich
+                                                                <br />
+                                                                <br />
+                                                                <br />
+                                                                &nbsp;
+                                                            </p>
+                                                            <div
+                                                                style="border-bottom:solid black 1.0pt; padding:0cm 0cm 1.0pt 0cm">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell-divisor">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                style="border-spacing: 0; border-collapse: collapse" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content" height="45">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_1120" aria-label="Editor de texto enriquecido, editor19"
+                            class="ckedit" role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell">
+                                            <table border="0" cellpadding="0" cellspacing=" 0"
+                                                style="border-spacing: 0; border-collapse: collapse" width="100%">
+                                                <tbody>
+                                                    <tr height="" style="width: 100%" width="100%">
+                                                        <td class="block-content" style="text-align: center">
+                                                            <h2
+                                                                style="																		font-family: Raleway, 'Raleway',																			Raleway Regular, sans-serif;																		font-style: normal;																		font-weight: 700;																		font-size: 24px;																		line-height: 28px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                <a
+                                                                    href="mailto:patricia@productionportugal.com?subject=More info">Ask
+                                                                    More
+                                                                </a>
+                                                            </h2>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_960" aria-label="Editor de texto enriquecido, editor16"
+                            class="ckedit" role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell" style="padding-right: 15px; padding-top: 45px"
+                                            valign="top" width="50%">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content" valign="top">
+                                                            <p
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																		text-align: left;																	">
+                                                                <a
+                                                                    href="mailto:info@productionportugal.com?subject=More info">info@productionportugal.com
+                                                                </a>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="block-content" style="padding-top: 15px"
+                                                            valign="top">
+                                                            <p
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																		text-align: left;																	">
+                                                                +351 21 861 06 60
+                                                            </p>
+                                                            <p
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																		text-align: left;																	">
+                                                                +351 91 661 80 20
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                        <td class="block-cell" style="padding-right: 15px; padding-top: 45px"
+                                            valign="middle" width="50%">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <p
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                <a href="https://productionportugal.com/">productionportugal.com
+                                                                </a>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="block-cell" height=""
+                                                            style="																	width: 100%;																	vertical-align: middle;																	text-align: center;																"
+                                                            width="100%">
+                                                            <table height=""
+                                                                style="																		width: 100%;																		border-spacing: 0;																		border-collapse: collapse;																	"
+                                                                width="100%">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="block-content"
+                                                                            style="																					padding-top: 20px;																					padding-bottom: 20px;																				"
+                                                                            valign="top">
+                                                                            <table height=""
+                                                                                style="																						width: 100%;																						border-spacing: 0;																						border-collapse: collapse;																					"
+                                                                                width="100%">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td
+                                                                                            style="																									padding: 2px 10px;																									text-align: center;																								">
+                                                                                            <div contenteditable="false"
+                                                                                                tabindex="-1">
+                                                                                                <div data-widget="image"
+                                                                                                    style="text-align: center">
+                                                                                                    <a href="https://www.facebook.com/productionportugal/"
+                                                                                                        target="_blank">
+                                                                                                        <img alt="Facebook"
+                                                                                                            height="24"
+                                                                                                            src="https://psp-production.od2.vtiger.com/test/upload/images/facebook-icon-18-256(1).png"
+                                                                                                            style="																													max-width: 37px;																													display: block;																													width: 24px;																													height: 24px;																												"
+                                                                                                            width="24" />
+                                                                                                    </a>
+                                                                                                    <div
+                                                                                                        style="text-align: center">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                        <td
+                                                                                            style="																									padding: 2px 10px;																									text-align: center;																								">
+                                                                                            <div contenteditable="false"
+                                                                                                tabindex="-1">
+                                                                                                <div data-widget="image"
+                                                                                                    style="text-align: center">
+                                                                                                    <a href="https://www.instagram.com/productionportugal/"
+                                                                                                        target="_blank">
+                                                                                                        <img alt="Instagram"
+                                                                                                            height="28"
+                                                                                                            src="https://psp-production.od2.vtiger.com/test/upload/images/insta-icon-white-instagram-logo-white-black-background(1).png"
+                                                                                                            style="																													max-width: 37px;																													display: block;																													width: 28px;																													height: 28px;																												"
+                                                                                                            width="28" />
+                                                                                                    </a>
+                                                                                                    <div
+                                                                                                        style="text-align: center">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                        <td
+                                                                                            style="																									padding: 2px 10px;																									text-align: center;																								">
+                                                                                            <div contenteditable="false"
+                                                                                                tabindex="-1">
+                                                                                                <div data-widget="image"
+                                                                                                    style="text-align: center">
+                                                                                                    <a href="https://www.linkedin.com/company/production-portugal"
+                                                                                                        target="_blank">
+                                                                                                        <img alt="LinkedIn"
+                                                                                                            height="28"
+                                                                                                            src="https://psp-production.od2.vtiger.com/test/upload/images/linkedin-transparent-tiny-linkedin-icon-white-png.png"
+                                                                                                            style="																													max-width: 37px;																													display: block;																													width: 28px;																													height: 28px;																												"
+                                                                                                            width="28" />
+                                                                                                    </a>
+                                                                                                    <div
+                                                                                                        style="text-align: center">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                        <td
+                                                                                            style="																									padding: 2px 10px;																									text-align: center;																								">
+                                                                                            <div contenteditable="false"
+                                                                                                tabindex="-1">
+                                                                                                <div data-widget="image"
+                                                                                                    style="text-align: center">
+                                                                                                    <a href="https://vimeo.com/pspproductionportugal"
+                                                                                                        target="_blank">
+                                                                                                        <img alt="Vimeo"
+                                                                                                            height="26"
+                                                                                                            src="https://psp-production.od2.vtiger.com/test/upload/images/vimeo-transparent.png"
+                                                                                                            style="																													max-width: 37px;																													display: block;																													width: 26px;																													height: 26px;																												"
+                                                                                                            width="26" />
+                                                                                                    </a>
+                                                                                                    <div
+                                                                                                        style="text-align: center">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                        <td
+                                                                                            style="																									padding: 2px 10px;																									text-align: center;																								">
+                                                                                            <div contenteditable="false"
+                                                                                                tabindex="-1">
+                                                                                                <div data-widget="image"
+                                                                                                    style="text-align: center">
+                                                                                                    <a href="https://twitter.com/ProdPortugal"
+                                                                                                        target="_blank">
+                                                                                                        <img alt="Twitter"
+                                                                                                            height="26"
+                                                                                                            src="https://psp-production.od2.vtiger.com/test/upload/images/twitter logo white.png"
+                                                                                                            style="																													max-width: 37px;																													display: block;																													width: 26px;																													height: 26px;																												"
+                                                                                                            width="26" />
+                                                                                                    </a>
+                                                                                                    <div
+                                                                                                        style="text-align: center">
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell-divisor">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                style="border-spacing: 0; border-collapse: collapse" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content" height="30">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_960" aria-label="Editor de texto enriquecido, editor16"
+                            class="ckedit" role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell" style="padding-right: 15px; padding-top: 30px"
+                                            valign="top" width="50%">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content" valign="top">
+                                                            <p
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                <strong>Portugal
+                                                                </strong>
+                                                            </p>
+                                                            <p
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                Rua Pereira Henriques
+                                                            </p>
+                                                            <p
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                N 1 - Armaz&eacute;m 9
+                                                            </p>
+                                                            <p
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                1950-242 Lisboa, Portugal
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="block-content" style="padding-top: 53px"
+                                                            valign="top">
+                                                            <p>
+                                                                <span>
+                                                                    <a href="mailto:info@productionportugal.com?subject=More info"
+                                                                        style="                    font-family: Roboto Regular, sans-serif;                    font-style: normal;                    font-weight: 400;                    font-size: 14px;                    line-height: 16px;                    color: rgba(255, 255, 255, 0.9);                   ">info@productionportugal.com
+                                                                    </a>
+                                                                </span>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                        <td class="block-cell" style="padding-right: 15px; padding-top: 30px"
+                                            valign="middle" width="50%">
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content" valign="top">
+                                                            <p
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                <strong>Spain
+                                                                </strong>
+                                                            </p>
+                                                            <p
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                Calle de Goya 36
+                                                            </p>
+                                                            <p
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                M 28001 Madrid, Spain
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="block-content" style="padding-top: 15px"
+                                                            valign="top">
+                                                            <p>Passeio de Gracia 17
+                                                            </p>
+                                                            <p
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 14px;																		line-height: 16px;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                08007 Barcelona, Spain
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="block-content" style="padding-top: 22px"
+                                                            valign="top">
+                                                            <p>
+                                                                <span>
+                                                                    <a href="mailto:info@productionportugal.com?subject=More info"
+                                                                        style="                    font-family: Roboto Regular, sans-serif;                    font-style: normal;                    font-weight: 400;                    font-size: 14px;                    line-height: 16px;                    color: rgba(255, 255, 255, 0.9);                   ">info@productionspain.com
+                                                                    </a>
+                                                                </span>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell-divisor">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                style="border-spacing: 0; border-collapse: collapse" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content" height="45">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td style="vertical-align: middle; text-align: center;" valign="middle">
+                        <div aria-describedby="cke_1405" aria-label="Editor de texto enriquecido, editor24"
+                            class="ckedit" role="textbox" spellcheck="true" style="text-align: center; margin: 0 auto;max-width:600px;"
+                            tabindex="0">
+                            <table class="block-table" height=""
+                                style="										display: inline-block;										border-spacing: 0;										border-collapse: collapse;										text-align: center;										margin: 0 auto;                                        width:100%;									"
+                                width="100%">
+                                <tbody style="text-align: center;width: 100%;display:block;">
+                                    <tr height="" style="text-align: center;width: 100%;display:block;" width="100%">
+                                        <td class="block-cell"
+                                            style="													width: 100%;													text-align: center;													display:block;												"
+                                            width="100%">
+                                            <div class="image-row">
+                                            </div>
+                                            <table height=""
+                                                style="														width: 100%;														border-spacing: 0;														border-collapse: collapse;														text-align: center;														margin: 0 auto;													"
+                                                width="100%">
+                                                <tbody>
+                                                    <tr class="block-content"
+                                                        style="padding: 20px 0;  text-align: center;" valign="middle">
+                                                        <th>
+                                                            <div aria-label="image widget" class="image-col"
+                                                                contenteditable="false" role="region" tabindex="-1">
+                                                                <div data-widget="image" style="text-align: center">
+                                                                    <a href="http://appfp.pt/associados"
+                                                                        target="_blank">
+                                                                        <img alt="" data-file-id="4935253"
+                                                                            src="https://psp-production.od2.vtiger.com/test/upload/images/AFFP logo.png"
+                                                                            style="																									border: 0px none;																									margin: 0px;																									outline: currentcolor none																										medium;																									text-decoration: none;																									max-width: 112px;																									max-height: 35px;                                                                                                    width:100%;"
+                                                                            width="100%" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </th>
+                                                        <th>
+                                                            <div aria-label="image widget" class="image-col-small"
+                                                                contenteditable="false" role="region" tabindex="-1">
+                                                                <div data-widget="image" style="text-align: center">
+                                                                    <a href="https://account.adobe.com/?lang=pt"
+                                                                        target="_blank">
+                                                                        <img alt="" data-file-id="4356297"
+                                                                            src="https://psp-production.od2.vtiger.com/test/upload/images/unnamed(2).jpg"
+                                                                            style="																									margin: 0px;																									outline: currentcolor none																										medium;																									text-decoration: none;																									max-width: 50px;																									max-height: 50px;                                                                                                    width:100%;																								"
+                                                                            width="100%" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </th>
+                                                        <th>
+                                                            <div aria-label="image widget" class="image-col"
+                                                                contenteditable="false" role="region" tabindex="-1">
+                                                                <div data-widget="image" style="text-align: center">
+                                                                    <a href="https://ownedbywomen.tv/" target="_blank">
+                                                                        <img alt="" data-file-id="4935269"
+                                                                            src="https://psp-production.od2.vtiger.com/test/upload/images/owned_logo.jpg"
+                                                                            style="																									border: 0px none;																									margin: 0px;																									outline: currentcolor none																										medium;																									text-decoration: none;																									max-width: 114px;																									max-height: 35px;                                                                                                    width:100%;																								"
+                                                                            width="100%" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </th>
+                                                        <th>
+                                                            <div aria-label="image widget" class="image-col"
+                                                                contenteditable="false" role="region" tabindex="-1">
+                                                                <div data-widget="image" style="text-align: center">
+                                                                    <a href="https://www.apa-agency.com/"
+                                                                        target="_blank">
+                                                                        <img alt="" data-file-id="4219637"
+                                                                            src="https://psp-production.od2.vtiger.com/test/upload/images/unnamed-1.jpg"
+                                                                            style="																									margin: 0px;																									outline: currentcolor none																										medium;																									text-decoration: none;																									max-width: 121px;																									max-height: 28px;                                                                                                    width:100%;																								"
+                                                                            width="100%" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </th>
+                                                        <th>
+                                                            <div aria-label="image widget" class="image-col"
+                                                                contenteditable="false" role="region" tabindex="-1">
+                                                                <div data-widget="image" style="text-align: center">
+                                                                    <a href="https://www.aicp.com/" target="_blank">
+                                                                        <img alt="" data-file-id="4356237"
+                                                                            src="https://psp-production.od2.vtiger.com/test/upload/images/unnamed-2.jpg"
+                                                                            style="																									margin: 0px;																									outline: currentcolor none																										medium;																									text-decoration: none;																									max-width: 100px;																									max-height: 28px;                                                                                                    width:100%;																								"
+                                                                            width="100%" />
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </th>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell-divisor">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                style="border-spacing: 0; border-collapse: collapse" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content" height="30">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                style="border-spacing: 0; border-collapse: collapse" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content">
+                                                            <p class="big"
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 16px;																		line-height: 19px;																		color: rgba(255, 255, 255, 0.9);																		text-align: center;																	">
+                                                                PSP Production
+                                                            </p>
+                                                            <p class="big"
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 16px;																		line-height: 19px;																		color: rgba(255, 255, 255, 0.9);																		text-align: center;																	">
+                                                                Portugal &amp; Spain
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="srt-block">
+                    <td valign="top">
+                        <div aria-describedby="cke_548" aria-label="Editor de texto enriquecido, editor8" class="ckedit"
+                            role="textbox" spellcheck="true" tabindex="0">
+                            <table border="0" class="block-table" style="border-spacing: 0; border-collapse: collapse"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td class="block-cell" style="padding: 22px 0">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                style="border-spacing: 0; border-collapse: collapse" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="block-content">
+                                                            <p class="small"
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 12px;																		line-height: 14px;																		text-align: center;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                Don&rsquo;t want to receive these e-mails?
+                                                            </p>
+                                                            <p class="small" id="unsubscribeLink"
+                                                                style="																		font-family: Roboto Regular, sans-serif;																		font-style: normal;																		font-weight: 400;																		font-size: 12px;																		line-height: 14px;																		text-align: center;																		color: rgba(255, 255, 255, 0.9);																	">
+                                                                You can
+                                                                <a href="http://unsubscribe/">unsubsribe here
+                                                                </a>.
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
+
 </html>
